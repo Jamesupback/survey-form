@@ -1,0 +1,58 @@
+<html>
+<head>
+    <title>survey form</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+</head>
+<body>
+    <h1 id="title"><strong> AVENGERS SURVEY FORM</strong></h1>
+    <P id="description">please fill out this form about the mcu</P>
+    <form id="survey-form">
+    <fieldset>
+        <label id="name-label">enter your name:<br><input id="name" type="text" required class="inline" placeholder="enter your name"/></label>
+        <label id="email-label">enter your email:<br><input type="email" id="email" required class="inline" placeholder="enter your email"/></label>
+        <label>enter your password:<br><input type="password" required class="inline"/></label>
+        <label>what do you do now?<br></label>
+            <select id="dropdown">
+                <option>select one</option>
+                <option>student</option>
+                <option>employed</option>
+                <option>umemployed</option>
+                <option>working in film industry</option>
+            </select>
+        </label>
+    </fieldset>
+    <fieldset>
+        <label id="number-label">what is your age:<input id="number" type="number" min="10" max="60" placeholder="age"/></label>
+        <label>would you recommend marvel movies to your friends:<br>
+                <input type="radio" class="inline" name="friend"/>yes
+                <input type="radio"class="inline" name="friend"/>no
+        </label>
+    </fieldset>
+    <fieldset><label>what is your favorite movie:</label>
+            <select>
+                <option>select one</option>
+                <option>Avengers 2012</option>sss
+                <option>Avengers age of ultron</option>
+                <option>Avengers infinity war</option>
+                <option>Avengers endgame</option>
+            </select>
+        <label>who is your favorite Avenger<br></label>
+        <div class="av">
+            <input type="checkbox" value="1"/>Iron man<br>
+            <input type="checkbox" value="2"/>Captain America<br>
+            <input type="checkbox" value="3"/>Black Widow<br>
+            <input type="checkbox" value="4"/>Thor<br>
+            <input type="checkbox" value="5"/>Hulk<br>
+            <input type="checkbox" value="6"/>Hawkeye<br>
+        <label>what are your suggestion about upcoming marvel movies<br>
+            <textarea placeholder="dunno just dont kill thor" rows="2" cols="20"ss></textarea>
+        </label>
+        </div>
+    </fieldset>
+    <fieldset>
+        <input type="submit" id="submit" value="submit"/>
+    </fieldset>
+</form>
+</body>
+</html>
